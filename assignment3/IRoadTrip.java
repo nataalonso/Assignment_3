@@ -240,13 +240,14 @@ public class IRoadTrip {
         // Create a mapping of alternative names to primary country names
         Map<String, String> alternativeNames = new HashMap<>();
         alternativeNames.put("Turkiye", "Turkey");
-        alternativeNames.put("Holy See", "Vatican City");
+        alternativeNames.put("Vatican City", "Holy See");
         alternativeNames.put("Greenland", "Denmark");
-        alternativeNames.put("Keeling", "Cocos (Keeling)");
+        alternativeNames.put("Keeling", "Cocos");
         alternativeNames.put("Islas Malvinas", "Falkland Islands");
         alternativeNames.put("Kaliningrad", "Russia");
         alternativeNames.put("Ceuta", "Spain");
-        alternativeNames.put("France", "Saint Martin");
+        alternativeNames.put("Saint Martin", "France");
+        alternativeNames.put("Kaliningrad", "Poland");
 
         // Check if the input is in the mapping of alternative names
         if (alternativeNames.containsKey(countryName)) {
